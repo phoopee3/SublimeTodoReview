@@ -141,6 +141,14 @@ If you have OCD and like things to be nicely aligned, I've included a spaces opt
 "render_spaces": 10
 ```
 
+## Custom Jump Lines
+If you would like to jump more (or less) than 10 lines at a time when using `shift + up` or `shift + down`, you can add the following lines to your config. Make sure that you use positive numbers for both. This defaults to `10`.
+
+```javascript
+"forward_custom": 10,
+"backward_custom": 10
+```
+
 ## Keyboard Shortcuts And Other Actions
 I didn't provide a standard key bind with TodoReview due to the high likelyhood of confliction with other plugins. If you would like a shortcut, you can add the following snippit to your ST3 User Key Bindings (under the preference menu). In addition to keybinds, you can create custom sidebar, pallet, mouse, etc. commands using this same syntax; for more information, check out the SublimeText documentation. You can play around with the arguments that you would like, it currently accepts `paths`, `open_files` and `open_files_only`.
 
