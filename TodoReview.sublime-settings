@@ -9,5 +9,7 @@
     "case_sensitive": false,
     "render_include_folder": false,
     "render_spaces": 1,
-    "disable_project_import": false
+    "disable_project_import": false,
+    "forward_custom" : 10,
+    "backward_custom" : 10
 }

@@ -15,7 +15,7 @@
             {"key": "setting.command_mode", "operand": true},
             {"key": "setting.todo_results"}
         ],
-        "args": {"direction": "forward10"}
+        "args": {"direction": "forward_custom"}
     },
 
     {
@@ -42,7 +42,7 @@
             {"key": "setting.command_mode", "operand": true},
             {"key": "setting.todo_results"}
         ],
-        "args": {"direction": "backward10"}
+        "args": {"direction": "backward_custom"}
     },
 
     {
