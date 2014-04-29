@@ -271,8 +271,8 @@ class TodoReviewCommand(sublime_plugin.TextCommand):
 		self.window.run_command('render_result_run', {'formatted_results': rendered, 'file_counter': str(counter)})
 
 class NavigateResults(sublime_plugin.TextCommand):
-	DIRECTION = {'forward': 1, 'backward': -1}
-	STARTING_POINT = {'forward': -1, 'backward': 0}
+	DIRECTION = {'forward': 1, 'backward': -1, 'forward10' : 10, 'backward10' : -10}
+	STARTING_POINT = {'forward': -1, 'backward': 0, 'forward10': -1, 'backward10': 0}
 
 	def __init__(self, view):
 		super(NavigateResults, self).__init__(view)
